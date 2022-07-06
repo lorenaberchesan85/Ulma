@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '30 05 * * *'
+    - cron: '00 05 * * *'
   workflow_dispatch:
 jobs:
   build:
